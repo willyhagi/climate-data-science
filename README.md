@@ -20,8 +20,8 @@ don't forget to tell me. I'd love to know it!
 \
 \
 \
-\
-\
 Currently, the available content is:
 
 1 - An Introduction to Classes with Radiation Laws.
+\
+2 - An Introduction to Cartopy Plotting with Xarray. 
