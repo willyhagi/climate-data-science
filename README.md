@@ -22,8 +22,8 @@ don't forget to tell me. I'd love to know it!
 \
 Currently, the available content is:
 
-1 - An Introduction to Classes with Radiation Laws.
+1 - [An Introduction to Classes with Radiation Laws.](http://nbviewer.jupyter.org/github/willyhagi/climate-statistics/blob/master/Jupyter-Notebooks/rad_laws.ipynb)
 \
-2 - An Introduction to Cartopy Plotting with Xarray. 
+2 - [An Introduction to Cartopy Plotting with Xarray.](http://nbviewer.jupyter.org/github/willyhagi/climate-statistics/blob/master/Jupyter-Notebooks/cartopy_plot.ipynb)
 \
-3 - Monthly Averaging, Anomalies and Climate Indices.
+3 - [Monthly Averaging, Anomalies and Climate Indices.](http://nbviewer.jupyter.org/github/willyhagi/climate-statistics/blob/master/Jupyter-Notebooks/annual_cycle.ipynb)
