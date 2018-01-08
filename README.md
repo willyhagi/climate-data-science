@@ -25,5 +25,5 @@ Currently, the available content is:
 1 - An Introduction to Classes with Radiation Laws.
 \
 2 - An Introduction to Cartopy Plotting with Xarray. 
-\ 
+\
 3 - Monthly Averaging, Anomalies and Climate Indices.
