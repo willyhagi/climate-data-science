@@ -15,7 +15,7 @@ If you want to help with suggestions, critics or something else you can send me 
 (or if you're good at stalking people, you can easily find me on Research Gate and Facebook). 
 
 And if the content of this repository helps you to get some results for your future publications, please
-don't forget to tell me. I'd love to know it!
+don't forget to tell me. I'd like to know it!
 
 \
 \
@@ -27,3 +27,5 @@ Currently, the available content is:
 2 - [An Introduction to Cartopy Plotting with Xarray.](http://nbviewer.jupyter.org/github/willyhagi/climate-statistics/blob/master/Jupyter-Notebooks/cartopy_plot.ipynb)
 \
 3 - [Monthly Averaging, Anomalies and Climate Indices.](http://nbviewer.jupyter.org/github/willyhagi/climate-statistics/blob/master/Jupyter-Notebooks/annual_cycle.ipynb)
+\
+4 - [Seasonal Analysis with Xarray.](http://nbviewer.jupyter.org/github/willyhagi/climate-statistics/blob/master/Jupyter-Notebooks/seasonal_cycle.ipynb)
