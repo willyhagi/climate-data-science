@@ -33,3 +33,5 @@ Currently, the available content is:
 5 - [Autocorrelation Function and Correlogram.](http://nbviewer.jupyter.org/github/willyhagi/climate-statistics/blob/master/Jupyter-Notebooks/autocorrel.ipynb#Autocorrelation-Function-and-Correlogram.)
 \
 6 - [Linear Correlations and Statistical Significance.](http://nbviewer.jupyter.org/github/willyhagi/climate-statistics/blob/master/Jupyter-Notebooks/correl.ipynb)
+\
+7 - [Composite Analysis.](http://nbviewer.jupyter.org/github/willyhagi/climate-statistics/blob/master/Jupyter-Notebooks/composites.ipynb)
