@@ -162,8 +162,15 @@ def pearson(matrix, index, grid):
 
 
 #---- pearson correlation's student t-test
-def t_test(r, dof, tcalc):
+def t_test(r, dof, ttab):
     t_num   =  np.multiply(r, np.sqrt(dof - 2.) )
     t_den   =  np.sqrt(1. - r ** 2.)
-    t_zero  =  np.divide(t_num, t_den)
-    return t_zero / tcalc
+    t_calc  =  np.divide(t_num, t_den)
+    return t_calc / ttab
+
+   
+#--- composite analysis t-test
+def t_comp(x, N, ttab):
+    varx   =  np.sqrt(x.var() / N)
+    tcalc  =  x / varx
+    return tcalc / ttab  
