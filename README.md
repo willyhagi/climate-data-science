@@ -11,7 +11,7 @@ the script headings there (you might add anything you want as well).
 This is also an ongoing and completely independent project, which means I'm not getting paid for this. 
 However, you can pay me a beer anytime.
 
-If you want to help with suggestions, critics or something else you can send me an e-mail
+If you want to help with suggestions, critics anything something else you can send me an e-mail at hagi.willy@gmail.com.
 (or if you're good at stalking people, you can easily find me on Research Gate and Facebook). 
 
 And if the content of this repository helps you to get some results for your future publications, please
@@ -35,3 +35,5 @@ Currently, the available content is:
 6 - [Linear Correlations and Statistical Significance.](http://nbviewer.jupyter.org/github/willyhagi/climate-statistics/blob/master/Jupyter-Notebooks/correl.ipynb)
 \
 7 - [Composite Analysis.](http://nbviewer.jupyter.org/github/willyhagi/climate-statistics/blob/master/Jupyter-Notebooks/composites.ipynb)
+\
+8 - [Empirical Orthogonal Functions.](http://nbviewer.jupyter.org/github/willyhagi/climate-statistics/blob/master/Jupyter-Notebooks/eof_svd.ipynb)
