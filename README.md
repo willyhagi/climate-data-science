@@ -37,3 +37,7 @@ Currently, the available content is:
 7 - [Composite Analysis.](http://nbviewer.jupyter.org/github/willyhagi/climate-statistics/blob/master/Jupyter-Notebooks/composites.ipynb)
 \
 8 - [Empirical Orthogonal Functions.](http://nbviewer.jupyter.org/github/willyhagi/climate-statistics/blob/master/Jupyter-Notebooks/eof_svd.ipynb)
+\
+9 - [Wavelet Transform.](http://nbviewer.jupyter.org/github/willyhagi/climate-statistics/blob/master/Jupyter-Notebooks/plot_wavelet.ipynb)
+\
+10 - [Wavelet Filtering.](http://nbviewer.jupyter.org/github/willyhagi/climate-statistics/blob/master/Jupyter-Notebooks/wave_filter.ipynb)
