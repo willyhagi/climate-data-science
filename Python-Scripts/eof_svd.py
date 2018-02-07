@@ -153,6 +153,37 @@ var_t  = np.arange(1, len(tseason)+1, 1)
 
 
 
+##--- first and second principal components
+fig, axes = plt.subplots(figsize=(14,9),nrows = 2, ncols = 1,)
+ax = axes.flatten()
+
+ax[0].plot(time, PC1 / np.std(PC1), 'k')
+ax[0].fill_between(time, PC1/np.std(PC1), 0, where=PC1/np.std(PC1)>0, facecolor='red')
+ax[0].fill_between(time, PC1/np.std(PC1), 0, where=PC1/np.std(PC1)<0, facecolor='blue')
+ax[0].set_xticks(range(1950, 2020, 5))
+ax[0].set_xlabel('Years', fontsize=14)
+ax[0].set_ylabel(u'Amplitude', fontsize=14)
+ax[0].set_title(u'a) CP2',
+				   fontsize=16)
+
+ax[1].plot(time, PC2 / np.std(PC2), 'k')
+ax[1].fill_between(time, PC2/np.std(PC2), 0, where=PC2/np.std(PC2)>0, facecolor='red')
+ax[1].fill_between(time, PC2/np.std(PC2), 0, where=PC2/np.std(PC2)<0, facecolor='blue')
+ax[1].set_xticks(range(1950, 2020, 5))
+#ax[1].set_yticks(range(-3,4, 1))
+ax[1].set_xlabel('Years', fontsize=14)
+ax[1].set_ylabel(u'Amplitude', fontsize=14)
+ax[1].set_title(u'b) PC2',
+				   fontsize=16)
+
+
+plt.tight_layout(pad=4.)
+
+
+plt.show()
+
+
+
 #--- eigenvalue spectrum
 plt.plot(var_t[0:10], var_exp[0:10])
 plt.plot(var_t[0:10], var_exp[0:10], 'ro')
@@ -264,24 +295,6 @@ for i, month in enumerate(range(1,3,1)):
                        transform = proj2,
                        cmap = 'RdBu_r')
     fig.colorbar(data, ax=ax, shrink=0.65)
-
-plt.tight_layout()
-plt.show()
-
-
-
-#----- first 2 principal components
-fig2, axes2 = plt.subplots(figsize=(12,4),nrows = 2, ncols = 1)
-axes2 = axes2.flatten()
-
-for i in range(1,3,1):
-    ax2 = axes2[i-1]
-    ax2.plot(time, PCn[:, i-1] / np.std(PCn[:, i-1]))
-    ax2.set_xticks(range(1951, 2016, 10))
-    ax2.set_yticks(range(-6,5,1))
-    ax2.set_ylabel('Amplitude')
-    ax2.set_xlabel('Years')
-    ax2.set_title('%s) PC%s' %(string.ascii_lowercase[i-1],i))
 
 plt.tight_layout()
 plt.show()
