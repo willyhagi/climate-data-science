@@ -35,8 +35,8 @@ def dof(acfunc, confint, N):
 
 
 ##----- reading and detrending (optional) data 
-sst  =  np.loadtxt('/home/willyhagi/Documents/TCC/Dados/nino3.asc')
-sst  =  detrend(sst, type='linear')  # linear detrending
+sst  =  np.loadtxt('nino3.asc')
+#sst  =  detrend(sst, type='linear')  # linear detrending
 
 
 
