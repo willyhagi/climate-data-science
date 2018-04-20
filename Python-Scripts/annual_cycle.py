@@ -25,6 +25,7 @@ import datetime
 from calendar              import month_name
 from functions             import* # from functions.py file
 from cartopy.mpl.ticker    import LongitudeFormatter, LatitudeFormatter
+from scipy.signal          import detrend
 
 
 
@@ -68,6 +69,44 @@ fclim  =  Demean(var, lat1, lat2, lon1, lon2, time1, time2)  # call Demean class
 clim   =  fclim.average()                                    # monthly mean
 anom   =  fclim.anomaly()                                    # anomalies
 index  =  fclim.area_avg()                                   # index calculation
+
+
+
+##----- DETRENDING (OPTIONAL)
+''' Note: it is highly advisable to detrend you data at this point. It can save you from some unnecessary 
+repetitions of lines of code later (when, for example, if you want to perform some EOF analysis), avoiding
+any kind of conflict between Xarray and SciPy AND making your things run faster. The following lines 
+are mostly from Dr. Nicholas Fauchereau's notebooks (http://nicolasfauchereau.github.io/climatecode/posts/).'''
+
+
+##--- processing of composite matrix
+anom = np.asarray(anom)
+naxis  =  [np.newaxis]
+
+# masking
+asst_nan   =  Nan_calc(anom, time, lat, lon)
+asst_res   =  asst_nan.reshaping()
+val, anom  =  asst_nan.masking_array()
+
+# detrend
+anom = detrend(anom, type='linear')
+
+# rec 
+anom   =  rec_matrix(anom, time, lat, lon, val) 
+
+
+d = {}
+d['time'] = ('time',time)
+d['lat'] = ('lat',lat)
+d['lon'] = ('lon', lon)
+d['sst'] = (['time','lat','lon'], anom)
+
+dset_from_dict = xr.Dataset(d)
+print (type(dset_from_dict))
+
+dset_from_dict.to_netcdf('asstv5.nc')
+
+
 
 
 #--- saving files
