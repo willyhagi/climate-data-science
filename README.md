@@ -1,8 +1,4 @@
 # climate-statistics
-Everybody else is moving to gitlab, so why can't we? \
-New entries will be made exclusively at gitlab.com/willyhagi/climate-statistics from now on. 
-
-
 
 Some useful applications of Climate Statistics using Python. 
 
