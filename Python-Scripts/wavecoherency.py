@@ -116,6 +116,25 @@ signif2, fft_theor2 = wavelet.significance(1.0, dt, scales2, 0, alpha2,
 
 power1 = (np.abs(W1)) ** 2             # Normalized wavelet power spectrum
 power2 = (np.abs(W2)) ** 2             # Normalized wavelet power spectrum
+
+
+
+##--- RECTIFICATION OF BIAS (Liu et al, 2007; Veleda et al (2012))
+powers1      =   np.zeros_like(power1)
+for k in range(len(scales1)):
+    powers1[k,:] = power1[k,:] / np.sqrt(scales1[k])
+
+power1 = powers1
+
+
+powers2      =   np.zeros_like(power1)
+for k in range(len(scales2)):
+    powers2[k,:] = power2[k,:] / np.sqrt(scales2[k])
+
+power2 = powers2
+
+
+
 period1 = 1/freqs1
 period2 = 1/freqs2
 sig95_1 = np.ones([1, n1]) * signif1[:, None]
