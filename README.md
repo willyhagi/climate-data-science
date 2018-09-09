@@ -13,8 +13,7 @@ silly mistakes can happen sometimes - you've been warned.
 This is also an ongoing and completely independent project, which means I'm not getting paid for this. 
 However, you can pay me a beer anytime.
 
-If you want to help with suggestions, critics or anything else feel free to send me an e-mail at hagi.willy[at]gmail.com
-(or if you're good at stalking people, you can easily find me on Research Gate and Facebook). 
+If you want to help with suggestions, critics or anything else feel free to send me an e-mail at hagi.willy[at]gmail.com.
 
 And if the content of this repository helps you to get some results for your future publications or any kind of work, please
 don't forget to tell me. I'd like to know it!
