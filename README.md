@@ -42,3 +42,5 @@ Currently, the available content is:
 9 - [Wavelet Transform.](http://nbviewer.jupyter.org/github/willyhagi/climate-statistics/blob/master/Jupyter-Notebooks/plot_wavelet.ipynb)
 \
 10 - [Wavelet Filtering.](http://nbviewer.jupyter.org/github/willyhagi/climate-statistics/blob/master/Jupyter-Notebooks/wave_filter.ipynb)
+\
+11 - [Cross-Wavelet Spectrum and Wavelet Coherence.]  (http://nbviewer.jupyter.org/github/willyhagi/climate-statistics/blob/master/Jupyter-Notebooks/wavecoherence.ipynb)
