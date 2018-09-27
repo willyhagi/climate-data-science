@@ -50,15 +50,6 @@ lon   =  dset['lon'][:]
 ##----------------------- CALCULATIONS
 
 
-##--- latitude weight array
-lat_v  = np.asarray(sst['lat'])[...,np.newaxis]
-coslat = np.cos(np.deg2rad(lat_v))
-wgts   = np.sqrt(coslat)
-
-sst = sst * wgts # weighted ASST
-
-
-
 ##--- month selecting (optional)
 djf  =  sst.sel(time=np.in1d(sst['time.month'], [1,2,12]))
 
