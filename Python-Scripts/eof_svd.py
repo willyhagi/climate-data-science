@@ -5,6 +5,7 @@
  File Name: eof_svd.py
  Description: Empirical Orthogonal Functions (EOF) with Singular Value Decomposition (SVD).
  Observations: Your input data must be a three-dimensional netcdf file
+ / It's much better if your input data is already detrended, normalized and so on...
  / Statistical Significance is left for user determination.
  Author: Willy Hagi
  E-mail: hagi.willy@gmail.com
