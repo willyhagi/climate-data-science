@@ -2,8 +2,8 @@
 
 
 '''
- File Name: eof_svd.py
- Description: Empirical Orthogonal Functions (EOF) with Singular Value Decomposition (SVD).
+ File Name: eof.py
+ Description: Empirical Orthogonal Functions (EOF).
  Author: Willy Hagi
  E-mail: hagi.willy@gmail.com
  Python Version: 3.7.3
