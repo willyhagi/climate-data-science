@@ -3,9 +3,6 @@
 
 '''
  File Name: functions.py
- Description: A list of useful python functions and classes.
- Observations: You'll need this file to run the other scripts
-from the climate-statistics repository.
  Author: Willy Hagi
  E-mail: hagi.willy@gmail.com
  Python Version: 3.6
