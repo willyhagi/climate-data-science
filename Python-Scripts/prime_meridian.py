@@ -23,17 +23,17 @@ from cartopy.util import add_cyclic_point
 
 
 def fill_meridian(dataset, variable):
-       '''
-       Function to complete a gridded data without the prime meridian line.
-       Currently, this is one of the most upsetting problems with xarray/cartopy/etc.
+    '''
+    Function to complete a gridded data without the prime meridian line.
+    Currently, this is one of the most upsetting problems with xarray/cartopy/etc.
 
-       Arguments:
-       dataset: a gridded dataset.
-       variable: your variable string.
+    Arguments:
+           dataset: a gridded dataset.
+           variable: your variable string.
 
-       Returns:
-       dset: a new gridded dataset with data in the prime meridian.
-       '''
+           Returns:
+           dset: a new gridded dataset with data in the prime meridian.
+    '''
     lon_idx = dataset[variable].dims.index('lon')
     dset_c, lon = add_cyclic_point(dataset[variable].values,
                                    coord=dataset['lon'], axis=lon_idx)
