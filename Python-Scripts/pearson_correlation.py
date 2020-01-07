@@ -33,7 +33,7 @@ nino34 = nino34.mean(dim=('lat', 'lon'))
 pearson_r, p_values = corr(sst, nino34, dim='time', return_p=True)
 
 # --- plotting
-f, ax = plot.subplots(axwidth=6., tight=True,
+fig, ax = plot.subplots(axwidth=6., tight=True,
                       proj='pcarree', proj_kw={'lon_0': 180},)
 # format options
 ax.format(land=False, coast=True, innerborders=True, borders=True,
