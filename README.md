@@ -9,6 +9,3 @@ If you want to help with suggestions, critics or anything else feel free to send
 don't forget to tell me. I'd like to know it!
 
 
-# Important (09.12.19):
-
-All the old code (until this day) will be updated somewhere around 2020 with new packages and new features. The files you can find in this repository are useful and run nicely, but future improvements are coming.  
