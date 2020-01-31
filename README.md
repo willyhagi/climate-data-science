@@ -1,3 +1,5 @@
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/willyhagi/climate-data-science/master)
+
 # Climate Data Science
 
 **Welcome!** This is a collection of Jupyter Notebooks and Python code aimed at data analysis and visualization techniques for meteorological datasets, like those from complex climate models and weather stations, and Earth Observation in General.  
