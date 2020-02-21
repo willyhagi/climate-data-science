@@ -1,9 +1,9 @@
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/willyhagi/climate-data-science/master)
+[[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/willyhagi/climate-data-science)
 [![ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/H2H21E5EB)
 
 # Climate Data Science
 
-**Welcome!** This is a collection of Jupyter Notebooks and Python code aimed at data analysis and visualization techniques for meteorological datasets, like those from complex climate models and weather stations, and Earth Observation in General.  
+**Welcome!** This is a collection of Jupyter Notebooks and Python code aimed at data analysis and visualization techniques for meteorological datasets, like those from complex climate models and weather stations, and Earth Observation in general.  
 
 
 ### Table of Contents 
