@@ -6,7 +6,11 @@
 **Welcome!** This is a collection of Jupyter Notebooks and Python code aimed at data analysis and visualization techniques for meteorological datasets, like those from complex climate models and weather stations, and Earth Observation in general.  
 
 
-### Table of Contents 
+# Table of Contents 
 
-* [A Quick Introduction to CMIP6.](https://towardsdatascience.com/a-quick-introduction-to-cmip6-e017127a49d3)
-* [A Quick Introduction to Google Earth Engine.](https://towardsdatascience.com/a-quick-introduction-to-google-earth-engine-c6a608c5febe)
+## Climate Variability and Change
+* [A Quick Introduction to CMIP6](https://towardsdatascience.com/a-quick-introduction-to-cmip6-e017127a49d3)
+* [Climate is What You Expect](https://towardsdatascience.com/climate-is-what-you-expect-20c57da1ac24)
+
+## Remote Sensing and Google Earth Engine
+* [A Quick Introduction to Google Earth Engine](https://towardsdatascience.com/a-quick-introduction-to-google-earth-engine-c6a608c5febe)
