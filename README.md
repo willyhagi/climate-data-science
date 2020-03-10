@@ -3,7 +3,10 @@
 
 # Climate Data Science
 
-**Welcome!** This is a collection of Jupyter Notebooks and Python code aimed at data analysis and visualization techniques for meteorological datasets, like those from complex climate models and weather stations, and Earth Observation in general.  
+**Welcome!** This is a collection of tutorials, with Jupyter Notebooks and Python code, aimed at data analysis and visualization techniques for climate science applications and Earth Observation in general. All the content is produced by me, [Willy Hagi](https://linktr.ee/willyhagi), and the tutorials are set to be constantly submitted to publication in [Towards Data Science](https://towardsdatascience.com/), known as one of the biggest data science portals of the web.
+
+
+For the time, it is possible to run with Google Colab only those Jupyter Notebooks aimed directly at **Earth Observation**. I hope that some serious Cartopy issues with Colab will be solved soon to allow interaction with the others as well.  
 
 
 # Table of Contents 
